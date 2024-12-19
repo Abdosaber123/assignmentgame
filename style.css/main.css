@@ -1,0 +1,101 @@
+p{
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    line-height: 30px;
+}
+h3
+{
+    font-family: "Nerko One", cursive;
+    font-size: 16px;
+    font-weight: 500;
+}
+body{
+    background-color: #272B30;
+    
+}
+.nav-sec{
+    background-image: url(../wraper.png);
+    background-position: center;
+    background-size: cover;
+    height:30vh;
+    display: inline-block;
+    width: 100%;
+    
+}
+.page-detils{
+    font-family: "Comfortaa", sans-serif;
+    
+}
+.layer img{
+    filter: grayscale(100);
+    transition: all 0.5s ease;
+}
+.test-hover:hover img{
+    filter: grayscale(0);
+}
+nav{
+    background-color: #3A497B;
+    /* top: 0%;
+    left: 10%;
+    right: 10%; */
+    margin-top: 200px;
+
+}
+.navbar img{
+    width: 50px;
+}
+.layer span{
+    
+    background-color: #6c757d;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    
+}
+.test-hover:hover span{
+    background-color: #0D6EFD;
+}
+.navbar a:hover{
+    color: #0099CC;
+}
+.navbar a,
+.navbar h5 {
+    font-family: "Nerko One", cursive;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.test-hover:hover{
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.test-hover:hover{
+    
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+.about-sec a{
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    text-decoration: none;
+    margin-top: 20px ;  
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.about-sec a:hover{
+    background-color: #FFC107;
+}
+.icon i{
+    font-size: 30px;
+    opacity: 50%;
+    transition: all 0.3s ease;
+
+}
+.icon i:hover{
+    opacity: 100%;
+    cursor: pointer;
+
+}
